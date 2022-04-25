@@ -1,0 +1,122 @@
+.hero{
+    background-color: #222;
+    padding: 9.6rem 0;
+    margin-top: 7.2rem;
+}
+.hero-container{
+    max-width: 130rem;
+    margin: 0 auto; 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    padding:  0 3.2rem;
+    gap: 4.3rem;
+}
+.hero-right-heading{
+    line-height: 1.2;
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin-bottom:0rem;
+    color: #919191;
+}
+.hero-right-name{
+    font-size: 5.2rem;
+    line-height: 1.2;
+    font-weight: 450;
+    /* max-width: 80%; */
+    color: #f5f5f5;
+    margin-bottom:2.4rem;
+}
+
+.hero-right-description{
+    line-height: 1.2;
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-bottom:2.4rem;
+    color: #919191;
+}
+
+.hero-right-button{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.hero-right-button-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 16rem;
+    height: 4.2rem;
+    background-color: #333;
+    box-shadow: 0 10px 10px -8px rgb(0 0 0 / 78%);
+    color: #fdf2e9;
+    border-radius: 20rem;
+    font-size: 1.4rem;
+    padding: 0 2.1rem;
+    cursor: pointer;
+    font-weight: 400;
+    border: solid 0.2rem #007ced;
+}
+
+.hero-right-button-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 16rem;
+    height: 4.2rem;
+    background-color: #333;
+    box-shadow: 0 10px 10px -8px rgb(0 0 0 / 78%);
+    color: #fdf2e9;
+    border-radius: 20rem;
+    font-size: 1.4rem;
+    padding: 0 2.1rem;
+    cursor: pointer;
+    font-weight: 400;
+    border: solid 0.2rem #fdf2e9;
+    margin-left: 2rem;
+}
+
+.hero-right-button-left:hover{
+    background-color: #007ced;
+    transition: all 0.3s ease-in-out;
+}
+
+.hero-right-button-right:hover{
+    background-color: #fdf2e9;
+    color: #333;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.hero-image-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40rem;
+    width: 40rem;
+    background-color: #f1b783;
+    /* background-color: #555; */
+    border-radius: 50%;
+    overflow: hidden;
+    border: solid 15px #646464;
+    -webkit-box-shadow: 0px 0px 20px 8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 20px 8px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 20px 8px rgba(0,0,0,0.75);
+    transition: all 0.4s;
+}
+
+.hero-image-box:hover{
+    transform: scale(1.1);
+}
+    
+.hero-left-image{
+    display: block;
+    width: 85%;
+    /* width: 60%; */
+    height:auto;
+    object-fit: cover;
+}
+
+

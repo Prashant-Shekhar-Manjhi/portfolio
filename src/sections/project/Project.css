@@ -1,0 +1,26 @@
+.project{
+    padding: 12rem 0;
+    background-color: #222;
+}
+
+.project-main-container{
+    max-width: 130rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+}
+
+.project-heading{
+    color: #f5f5f5;
+    font-weight: 300;
+    font-size: 2.4rem;
+    display: inline-block;
+    border-bottom: solid 2.5px;
+    padding: 0.5rem 0;
+    margin-bottom: 3.6rem;
+    /* border-image:   linear-gradient(to right, #007ced 20%, #383838 20%,  #383838 100%) 5; */
+    border-image:   linear-gradient(to right, #383838 40%, #007ced 40%, #007ced 60%, #383838 60%, #383838 100%) 5;
+}
+/* .project-container{
+    
+} */
+

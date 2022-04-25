@@ -1,0 +1,38 @@
+.certificate-container{
+    border: solid 0.2rem #383838;
+    border-radius: 0.8rem;
+    padding: 3.2rem;
+    position: relative;
+}
+.certificate-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 4.2rem;
+}
+.certificate-list-item-heading-wrapper{
+    margin-bottom: 1rem;
+}
+
+.certificate-list-item-heading:link,
+.certificate-list-item-heading:visited{
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #f5f5f5;
+    text-decoration: none;
+}
+
+.certificate-list-item-tutor{
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: #a7a7a7;
+    font-style: italic;
+}
+
+.certificate-icon{
+    position: absolute;
+    top: -2rem;
+    left: -2rem;
+    color: #f5f5f5;
+    font-size: 3.8rem !important;
+}

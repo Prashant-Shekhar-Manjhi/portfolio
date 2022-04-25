@@ -1,0 +1,70 @@
+.resume{
+    background-color: #222;
+    padding: 12rem;
+}
+
+.resume-main-container{
+    max-width: 130rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+}
+.resume-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 3.2rem;
+    align-items: center;
+    justify-content: center;
+}
+.resume-heading{
+    color: #f5f5f5;
+    font-weight: 300;
+    font-size: 2.4rem;
+    display: inline-block;
+    border-bottom: solid 2.5px;
+    padding: 0.5rem 0;
+    margin-bottom: 3.6rem;
+    border-image:   linear-gradient(to right, #383838 20%, #007ced 20%, #007ced 40%, #383838 40%, #383838 100%) 5;
+}
+
+.resume-left{
+    max-width: 30rem;
+}
+
+.resume-left-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 3.6rem;
+}
+
+.resume-left-list-item{
+    display: flex;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #fdf2e9;
+    align-items: center;
+    cursor: pointer;
+    background-color: #333;
+    box-shadow: 0 10px 10px -8px rgb(0 0 0 / 78%);
+    padding: 1rem;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: solid 0.2rem #007ced;
+}
+
+.active-btn{
+    background-color: #007ced;
+}
+
+.resume-left-list-item:hover{
+    background-color: #007ced;
+    transition: all 0.4s ease-in-out;
+}
+
+.resume-left-list-item-icon{
+    font-size: 2rem !important;
+}
+
+.resume-left-list-text{
+    margin-left: 2rem;
+}
