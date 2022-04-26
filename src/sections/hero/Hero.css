@@ -84,10 +84,15 @@
     text-decoration: none;
 }
 
-.hero-right-button-text:hover,
-.hero-right-button-text:active{
+.hero-right-button-text:hover{
     text-decoration: none;
     background-color: #007ced;
+    transition: all 0.3s ease-in-out;
+}
+
+.hero-right-button-text:active{
+    text-decoration: none;
+    background-color: #333;
     transition: all 0.3s ease-in-out;
 }
 

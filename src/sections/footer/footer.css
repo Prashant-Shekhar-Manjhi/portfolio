@@ -1,0 +1,106 @@
+.footer{
+    width: 100%;
+    height: 30vh;
+    background-color: #1b1b1b;
+    position: relative;
+}
+
+.footer-wrapper{
+    max-width: 140rem;
+    margin: 0 auto;
+    padding: 2.4rem;
+}
+.footer-main-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    /* align-items: center; */
+}
+
+.footer-left{
+    padding: 0 1.2rem; 
+    justify-self: start;   
+}
+
+.footer-left-links{
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+    margin-top: 2rem;
+    margin-left: 0.6rem;
+}
+
+.footer-left-location .footer-icon{
+    color: #f03e3e;
+    margin-top: 1rem;
+    font-size: 3.2rem !important;
+}
+
+a{
+    text-decoration: none;
+}
+.footer-icon{
+    color: #fff;
+    font-size: 2.4rem !important;
+}
+
+.footer-middle{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #b3b3b3;
+    padding: 0 1.2rem;
+}
+
+.footer-middle-heading{
+    font-size: 2.2rem;
+    font-weight: 500;
+    margin-bottom: 3.2rem;
+    color: #fff;
+    margin-top: 1.2rem;
+}
+
+.address{
+    line-height: 1.4;
+    margin-bottom: 3.2rem !important;
+    word-spacing: 2px;
+}
+
+.footer-middle p{
+    margin-bottom: 1rem;
+}
+
+.footer-right{
+    padding: 0 1.2rem;
+    margin-top: 1.6rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.footer-right-nitc-logo{
+    width: 30%;
+    height: 70%;
+}
+
+.footer-right-wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.footer-copyright{
+    width: 100%;
+    height: 2.4vh;
+    background-color: #007ced;
+    position:absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-copyright-text{
+    color: #fff;
+    font-size: 1.3rem;
+    word-spacing: 2px;
+}

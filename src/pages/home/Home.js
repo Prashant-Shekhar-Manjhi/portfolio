@@ -6,6 +6,7 @@ import Resume from '../../sections/resume/Resume';
 import Project from '../../sections/project/Project';
 // import Blogs from '../../sections/blogs/Blogs';
 import Contact from '../../sections/contact/Contact';
+import Footer from '../../sections/footer/Footer';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <Project/>
         {/* <Blogs/> */}
         <Contact/>
+        <Footer />
     </div>
   )
 }

@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <header class="header">
       <a href="/">
-        <img class="logo" alt="Omnifood logo" src={logo} />
+        <img class="logo" alt="logo" src={logo} />
       </a>
 
       <nav class="main-nav">

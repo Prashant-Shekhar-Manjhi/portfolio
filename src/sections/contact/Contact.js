@@ -3,10 +3,12 @@ import emailjs from '@emailjs/browser';
 import contactImage from "../../image/contact.jpg";
 import SendIcon from '@mui/icons-material/Send';
 import CloseIcon from '@mui/icons-material/Close';
+import CircularProgress from '@mui/material/CircularProgress';
 import "./Contact.css"
 
 export default function Contact() {
   const [sent, setSent] = useState(false);
+  const [isSending, setIsSending] = useState(false);
   const [formData, setFormData] = useState({
       username:"",
       subject:"",
@@ -19,26 +21,19 @@ export default function Contact() {
   const validateForm = ()=>{
       if(formData.username && formData.email && formData.message){
         setIsValid(true);
-      }else if(!formData.username){
-        setSentInfo("Enter your name");
-        setSent(true);
-      }else if(!formData.email){
-        setSentInfo("Enter your email address");
-        setSent(true);
-      }else if(!formData.message){
-        setSentInfo("Enter your mail")
-        setSent(true);
       }
   }
   const onSubmitHandler = (e)=>{
     e.preventDefault();
     validateForm();
     if(isValid){
+        setIsSending(true);
         emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID , formRef.current, process.env.REACT_APP_PUBLIC_KEY)
         .then((result) => {
             console.log(result.text);
             setSentInfo("Message successfully sent");
             setSent(true);
+            setIsSending(false);
             setFormData({
               username:"",
               subject:"",
@@ -103,8 +98,9 @@ export default function Contact() {
                   <div className="button-wrapper">
                     <button type="submit">
                         <div className="btn-text-wrapper">
-                          <p>Send</p>
-                          <SendIcon className='send-icon'/>
+                          <p>Send message</p>
+                          {!isSending && <SendIcon className='send-icon'/>}
+                          {isSending && <CircularProgress size="18px" style={{color:"#fff"}} className='send-icon'/>}
                         </div>
                     </button>
                     {sent && <div className='sent-info-wrapper'>
