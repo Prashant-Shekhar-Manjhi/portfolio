@@ -1,3 +1,7 @@
+.education-container-wrappe{
+    transition: all 4s ease;
+}
+
 .education-container{
     border: solid 0.2rem #383838;
     border-radius: 0.8rem;

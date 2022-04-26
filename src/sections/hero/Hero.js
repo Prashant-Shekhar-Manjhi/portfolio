@@ -24,10 +24,10 @@ export default function Hero() {
                 </p>
                 <div className="hero-right-button">
                     <div className="hero-right-button-left">
-                        <p className="hero-right-button-text"> Download CV</p>
+                        <a className="hero-right-button-text" href='https://drive.google.com/uc?export=download&id=1O3cBxhicD0iMZd9z6iu2IStkL25NkEmm'> Download CV</a>
                     </div>
                     <div className="hero-right-button-right">
-                        <p className="hero-right-button-text"> Contact me</p>
+                        <a className="hero-right-button-text-contact" href='#contact'> Contact me</a>
                     </div>
                 </div>
             </div>

@@ -1,12 +1,20 @@
 .about{
     padding: 12rem 0;
     background-color: #222;
+    height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 .about-main-container{
     max-width: 130rem;
     margin: 0 auto;
     padding: 0 3.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 9.2rem
 }
 .about-container{
     display: grid;
@@ -18,12 +26,11 @@
 
 .about-heading{
     color: #f5f5f5;
-    font-weight: 300;
-    font-size: 2.4rem;
+    font-weight: 400;
+    font-size: 3.8rem;
     display: inline-block;
     border-bottom: solid 2.5px;
     padding: 0.5rem 0;
-    margin-bottom: 3.6rem;
     border-image:   linear-gradient(to right, #007ced 20%, #383838 20%,  #383838 100%) 5;
 }
 
@@ -38,7 +45,7 @@
 }
 
 .about-description-text{
-    margin-bottom: 1.2rem;
+    margin-bottom: 1.8rem;
 }
 
 .about-desc-last{
@@ -57,6 +64,9 @@
     border-bottom-right-radius: 25px;
     overflow: hidden;
     transition: all 0.4s;
+    -webkit-box-shadow: 0px 0px 20px 8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 20px 8px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 20px 8px rgba(0,0,0,0.75);
 }
 
 .about-image-container:hover{

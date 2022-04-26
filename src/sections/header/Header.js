@@ -17,6 +17,7 @@ export default function Header() {
             <a class="main-nav-link" href="#resume">Resume</a>
           </li>
           <li><a class="main-nav-link" href="#project">Projects</a></li>
+          {/* <li><a class="main-nav-link" href="#blog">Blog</a></li> */}
           <li><a class="main-nav-link" href="#contact">Contact</a></li>
           <li><a class="main-nav-link nav-cta" href="#cta">Hire me</a></li>
         </ul>
