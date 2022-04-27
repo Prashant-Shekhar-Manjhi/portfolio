@@ -13,8 +13,8 @@ import "./Resume.css"
 
 export default function Resume() {
     const [isVisible, setIsVisible] = useState({
-        education: true,
-        skills: false,
+        education: false,
+        skills: true,
         achivement: false,
         certificate: false,
         interest: false,

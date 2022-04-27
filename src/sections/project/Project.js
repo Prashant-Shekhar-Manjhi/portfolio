@@ -1,7 +1,7 @@
 import React from 'react'
 import Product from '../../components/product/Product'
-import MyTube from "../../image/mytube-min.png";
-import ChatHub from "../../image/chathub-min.png"
+import MyTube from "../../image/mytube.jpg";
+import ChatHub from "../../image/chathub.jpg"
 // import ExpenseMonitor from "../../image/expense-monitor.png"
 import "./Project.css"
 
