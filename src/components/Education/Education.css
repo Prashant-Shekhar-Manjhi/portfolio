@@ -5,7 +5,7 @@
 .education-container{
     border: solid 0.2rem #383838;
     border-radius: 0.8rem;
-    padding: 3.2rem;
+    padding: 2rem;
     position: relative;
 }
 .education-list{
@@ -48,4 +48,25 @@
     left: -2rem;
     color: #f5f5f5;
     font-size: 4.8rem !important;
+}
+
+
+/* 64em = 1024px */
+@media(max-width:64em){
+    .education-list-item-degree-name{
+        font-size: 2rem;
+    }
+    .education-list-item-degree-duration{
+        font-size: 1.2rem;
+    }
+}
+
+/* 50em = 800px */
+@media(max-width:64em){
+    .education-list-item-degree-name{
+        font-size: 1.8rem;
+    }
+    .education-list-item-degree-duration{
+        font-size: 1.2rem;
+    }
 }

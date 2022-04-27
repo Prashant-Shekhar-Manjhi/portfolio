@@ -31,3 +31,29 @@
 .product-container:hover .product-img{
     transform: translateY(-50%);
 }
+
+/* 1200px == 75em */
+@media(max-width:75em)
+{
+    .product-container{
+        height: 20vh;
+        width: 80%;
+    }
+
+}
+
+/* 64em == 1024px */
+@media(max-width:64rem){
+    .product-container {
+        height: 16vh;
+        width: 75%;
+    }
+}
+
+
+/* 47em = 752px */
+@media(max-width:47em){
+   .product-container{
+       height: 20vh;
+   }
+}    

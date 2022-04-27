@@ -64,3 +64,10 @@
   background-color: #007ced;
   color: #fdf2e9;
 }
+
+/* 47em = 742px */
+@media(max-width:47em){
+  .main-nav-list {
+    gap: 3.2rem;
+  }
+}    

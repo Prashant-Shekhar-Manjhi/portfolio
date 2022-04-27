@@ -153,3 +153,34 @@
 }
 
 
+/* 64em = 1024px */
+@media(max-width:64em){
+    .hero-right-name{
+        font-size: 4.8rem;
+    }
+}
+
+/* 47em = 752px */
+@media(max-width:47em){
+    .hero-container{
+        grid-template-columns: 1fr;
+        gap: 9.2rem;
+    }
+    .hero-right-heading{
+        font-size: 2.4rem;
+        margin-bottom: 1rem;
+    }
+    .hero-right-description{
+        line-height: 1.4;
+        word-spacing: 0.1rem;
+        font-size: 2rem;
+    }
+    .hero-right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero-right-description{
+        width: 80%;
+    }
+}    

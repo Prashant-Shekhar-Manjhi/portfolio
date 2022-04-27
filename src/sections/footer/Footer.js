@@ -14,8 +14,9 @@ export default function Footer() {
       <div className="footer-wrapper">
         <div className="footer-main-container">
             <div className="footer-left">
+              <div className='footer-left-wrapper'>
               <a href="/">
-                <img class="logo" alt="logo" src={logo} />
+                <img className="logo" alt="logo" src={logo} />
               </a>
               <div className="footer-left-links">
                 <a href="https://www.facebook.com/lakshya.shekhar.7/" target="_blank" rel="noreferrer">
@@ -34,6 +35,7 @@ export default function Footer() {
               <a href="https://goo.gl/maps/u6qbjW9qFkusDxMV8" target="_blank" rel="noreferrer" className='footer-left-location'>
                     <LocationOnIcon className='footer-icon'/>
               </a>
+              </div>
             </div>
             <div className="footer-middle">
                 <h2 className="footer-middle-heading">Contact me</h2>

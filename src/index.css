@@ -79,3 +79,13 @@ Medium: 11px
     display: none;
     transition: all 0.4s ease;
   }
+
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+@media (max-width: 59em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 50%;
+  }
+}

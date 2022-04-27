@@ -59,7 +59,7 @@ export default function Contact() {
                 <img src={contactImage} alt="" className="contact-image"/>
               </div>
           </div>
-          <div className="contact-container-left">
+          <div className="contact-container-right">
               <h2 className="contact-container-left-heading">What's your story?</h2>
               <div className="form-wrappper">
                 <form ref={formRef} className="contact-form" onSubmit={onSubmitHandler}>

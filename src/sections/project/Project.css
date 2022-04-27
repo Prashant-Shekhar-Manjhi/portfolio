@@ -48,3 +48,31 @@
 
 }
 
+/* 1200px == 75em */
+@media(max-width:75em)
+{
+    .project-container{
+        gap: 0;
+    }
+
+}
+
+/* 64em = 1024px */
+@media(max-width:64em){
+    .project-heading{
+        font-size: 3.2rem;
+    }
+}
+
+
+/* 47em = 752px */
+@media(max-width:47em){
+    .project-container{
+        grid-template-columns: 1fr;
+        gap: 6.2rem;
+    }
+
+    .product-wrapper{
+        width: 65%;
+    }
+}    
