@@ -28,7 +28,7 @@
 }
 .project-container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-items: center;
     gap: 3.2rem
@@ -42,7 +42,7 @@
 }
 
 .product-wrapper .product-name{
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     color: #a7a7a7;
     font-weight: 500;
 
@@ -73,6 +73,6 @@
     }
 
     .product-wrapper{
-        width: 65%;
+        width: 85%;
     }
 }    

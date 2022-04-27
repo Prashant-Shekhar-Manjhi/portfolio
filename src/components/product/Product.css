@@ -2,7 +2,7 @@
     border: solid 0.2rem #383838;
     border-radius: 1rem 1rem 0 0;
     width: 90%;
-    height: 25vh;
+    height: 35rem;
     overflow: hidden;
 }
 
@@ -36,7 +36,7 @@
 @media(max-width:75em)
 {
     .product-container{
-        height: 20vh;
+        height: 30rem;
         width: 80%;
     }
 
@@ -45,7 +45,7 @@
 /* 64em == 1024px */
 @media(max-width:64rem){
     .product-container {
-        height: 16vh;
+        height: 25rem;
         width: 75%;
     }
 }
@@ -54,6 +54,24 @@
 /* 47em = 752px */
 @media(max-width:47em){
    .product-container{
-       height: 20vh;
+       width: 85%;
+       height: 35rem;
    }
-}    
+} 
+
+/* 32em == 512px */
+@media(max-width:32em){
+    .product-container{
+        width: 90%;
+        height: 32rem;
+    }
+} 
+
+
+/* 25.5em == 408px */
+@media(max-width:25.5em){
+    .product-container{
+        width: 95%;
+        height: 30rem;
+    }
+}

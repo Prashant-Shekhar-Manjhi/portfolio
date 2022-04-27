@@ -130,3 +130,24 @@
     } 
 }    
 
+/* 41em == 656px */
+@media(max-width:41em) {
+    .about-description{
+        width: 85%;
+    }
+
+    .about-image-container{
+        width: 80%;
+    }
+}
+
+/* 31.25em == 500px */
+@media(max-width:31.25em) {
+    .about-description{
+        width: 95%;
+    }
+
+    .about-image-container{
+        width: 90%;
+    }
+}

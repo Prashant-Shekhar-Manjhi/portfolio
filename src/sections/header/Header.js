@@ -1,15 +1,21 @@
-import React from 'react'
+import React, {useState} from 'react'
 import logo from "./../../logo/logo.png"
+import MenuIcon from '@mui/icons-material/Menu';
+import CloseIcon from '@mui/icons-material/Close';
 import "./Header.css"
 
 export default function Header() {
+  const [open, setOpen] = useState(false);
+  const navMenuHandler = ()=>{
+      setOpen(!open);
+  }
   return (
-    <header className="header">
+    <header className={open ? "header nav-open" : 'header'}>
       <a href="/">
         <img className="logo" alt="logo" src={logo} />
       </a>
 
-      <nav className="main-nav">
+      <nav className="main-nav" onClick={navMenuHandler}>
         <ul className="main-nav-list">
           <li><a className="main-nav-link" href="#hero">Home</a></li>
           <li><a className="main-nav-link" href="#about">About</a></li>
@@ -23,10 +29,10 @@ export default function Header() {
         </ul>
       </nav>
 
-      {/* <button className="btn-mobile-nav">
-        <ion-icon className="icon-mobile-nav" name="menu-outline"></ion-icon>
-        <ion-icon className="icon-mobile-nav" name="close-outline"></ion-icon>
-      </button> */}
+      <button className="btn-mobile-nav"onClick={navMenuHandler} >
+        <MenuIcon className="icon-mobile-nav open-nav"/>
+        <CloseIcon className="icon-mobile-nav close-nav"/>
+      </button>
     </header>
   )
 }

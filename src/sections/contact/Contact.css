@@ -168,7 +168,7 @@
 }
 .sent-icon{
     font-size: 2rem !important;
-    margin-left: 2rem;
+    margin-left: 1.6rem;
     cursor: pointer;
 }
 
@@ -206,3 +206,24 @@
         padding: 1rem;
     }  
 }    
+
+/* 41em == 656px */
+@media(max-width:41em) {
+    .contact-container{
+        width: 85%;
+    }
+
+    .form-wrappper{
+        width: 95%;
+        margin: 1rem 0;
+    }    
+    
+}
+
+
+/* 31.25em == 500px */
+@media(max-width:31.25em){
+    .contact-container{
+        width: 95%;
+    }
+}

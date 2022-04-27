@@ -73,6 +73,7 @@ Medium: 11px
     background-color: #222;
     /* Only works if there is nothing absolutely positioned in relation to body */
     overflow-x: hidden;
+    position: relative;
   }
 
   .hide{
@@ -89,3 +90,28 @@ Medium: 11px
     font-size: 50%;
   }
 }
+
+/* 37.5em == 600px */
+@media(max-width:37.5em){
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 45%;
+  }
+}
+
+/* 31.25em == 500px */
+@media(max-width:31.25em){
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 40%;
+  }
+}
+
+/* 25.5em == 408px */
+@media(max-width:25.5em){
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 35%;
+  }
+}
+

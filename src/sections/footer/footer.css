@@ -79,8 +79,8 @@ a{
 
 
 .footer-right-nitc-logo{
-    width: 30%;
-    height: 70%;
+    width: 10rem;
+    height: 12rem;
 }
 
 .footer-right-wrapper{
@@ -110,10 +110,6 @@ a{
 /* 1200px == 75em */
 @media(max-width:75em)
 {
-    .footer-right-nitc-logo{
-        height: 13rem;
-        width: 12rem;
-    }
     .footer-main-container{
         grid-template-columns: 1fr 1.5fr 1fr;
     }
@@ -134,4 +130,16 @@ a{
         height: 12rem;
         width: 10rem;
     }
-}    
+}   
+
+/* 41em == 656px */
+@media(max-width:41em) {
+    .footer-right{
+        display: none;
+    }
+
+    .footer-main-container{
+        grid-template-columns: 1fr 2fr;
+    }
+    
+}
